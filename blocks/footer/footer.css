@@ -4,6 +4,19 @@ footer {
   font-size: var(--body-font-size-s);
 }
 
+footer a:any-link {
+  color: var(--background-color);
+}
+
+footer ul {
+  padding: unset;
+}
+
+footer li {
+  display: inline-block;
+  padding: 10px;
+}
+
 footer .footer {
   max-width: 1200px;
   margin: auto;
