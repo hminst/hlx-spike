@@ -190,16 +190,16 @@ main img {
 /* sections */
 main .section {
  padding: 0 16px;
- background-color: grey;
+ background-color: white;
 }
 
-main .section:nth-child(odd) {
-  background-color: white;
+main .section:nth-child(even) {
+  background-color: grey;
 }
 
 @media (width >= 600px) {
   main .section {
-    padding: 0 32px;
+    padding: 10px 32px;
   }
 }
 
