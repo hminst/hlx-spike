@@ -191,12 +191,10 @@ main img {
 main .section {
  padding: 0 16px;
  background-color: white;
- padding: 10px;
 }
 
 main .section:nth-child(even) {
   background-color: grey;
-  padding: 10px;
 }
 
 @media (width >= 600px) {
