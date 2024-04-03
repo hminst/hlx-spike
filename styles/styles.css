@@ -11,19 +11,18 @@
  */
 
 :root {
-
   /* colors */
   --brand-color: #016543;
   --link-color: var(--brand-color);
   --link-hover-color: var(--brand-color);
-  --background-color: #ffffff;
+  --background-color: #fff;
   --light-color: #eee;
   --dark-color: #ccc;
   --text-color: black;
 
   /* fonts */
-  --body-font-family: Din;
-  --heading-font-family: Din;
+  --body-font-family: din;
+  --heading-font-family: din;
   --fixed-font-family: "Roboto Mono", menlo, consolas, "Liberation Mono", monospace;
 
   /* body sizes */
